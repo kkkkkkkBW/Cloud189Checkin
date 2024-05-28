@@ -1,5 +1,5 @@
 # Cloud189Checkin
-天翼网盘自动签到（随机容量) 和抽奖（三次，每次50M，共150M）获取空间  
+天翼网盘自动签到（随机容量） 和抽奖（三次，每次50M，共150M）获取空间  
 
 # 4.28 测试好用，抽奖也可以用！！
 
@@ -18,8 +18,8 @@
 ![](https://cdn.jsdelivr.net/gh/wes-lin/Cloud189Checkin/image/account.jpg)
 ### 设置推送
 #### Server酱
-为了考虑到不同客户端兼容性,采用了Server酱,只需多配置下SENDKEY
-![](https://cdn.jsdelivr.net/gh/wes-lin/Cloud189Checkin/image/push.png)就行,Server酱的配置和sendkey的获取可参看[Server酱官网](https://sct.ftqq.com/)
+为了考虑到不同客户端兼容性,采用了Server酱,只需多配置下SENDKEY就行,Server酱的配置和sendkey的获取可参看[Server酱官网](https://sct.ftqq.com/)
+![](https://cdn.jsdelivr.net/gh/wes-lin/Cloud189Checkin/image/push.png)
 #### TelegramBot推送
 - `TELEGRAM_BOT_TOKEN` *Telegram Bot Token*
 - `TELEGRAM_CHAT_ID` *Telegram 接收推送消息的会话 ID*
