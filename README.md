@@ -39,7 +39,7 @@ https://wxpusher.zjiecode.com/api/qrcode/4Ix7noqD3L7DMBoSlvig3t4hqjFWzPkdHqAYsg8
 2. 给自己仓库点个start或者修改任意文件后提交一次  
 ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
 3. 每天早上10点执行任务
-- 若需修改时间，**run.yml** 中 可在 **schedule:** 字段处修改，
+- 若需修改时间，可在 **run.yml** 中 **schedule:** 字段处修改。时区为UTC+0，相比北京时间晚8小时，前分钟后小时，具体格式参考[文档](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onschedule)。
 
 ### 查看运行结果
 Actions > Cloud check in action > build
